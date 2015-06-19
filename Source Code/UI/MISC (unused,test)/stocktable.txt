@@ -1,0 +1,19 @@
+echo "<table>";
+
+echo "<th>Name</th> <th>Stock Quote</th> <th>Change";
+
+foreach ($quote_array as $quote_value) {
+
+echo "<tr>";
+
+$quote = explode(",", $quote_value);
+
+$symbol = str_replace("\"", "", $quote[0]);
+
+$value = $quote[1];
+
+$change = $quote[2];
+
+echo "<td>$symbol</td> <td>$value</td> <td>$change</td>";
+
+echo "</tr>";

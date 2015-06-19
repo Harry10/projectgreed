@@ -1,0 +1,212 @@
+
+@import "http://wyrd.hood.edu/~echang/it280/spring11/lessons/extras/reset.css";
+@import "http://fonts.googleapis.com/css?family=Averia+Sans+Libre";
+@import "http://fonts.googleapis.com/css?family=Gentium+Basic";
+
+ body {background:Cornsilk  ; color: black; font-family: "Averia Sans Libre", "Arial", serif; padding: 2em;}
+
+ h1 {width:100%;padding-top:10px;padding-bottom:10px;text-transform:uppercase;letter-spacing:0.4em;font-size:200%;margin-left:auto;margin-right:auto;
+        font-family: "Averia Sans Libre", "Arial", serif;display:inline-block;text-align:center;color:Black;text-shadow: 2px 2px 3px Black}
+
+h2 {width:100%;padding-top:10px;padding-bottom:10px;text-transform:uppercase;letter-spacing:0.25em;font-size:150%;margin-left:auto;margin-right:auto;
+        font-family: "Averia Sans Libre", "Arial", serif;display:inline-block;text-align:center;color:Black; text-shadow: 1px 1px 2px Black}
+
+
+.menu{
+        width:75%;margin-right:auto;margin-left:auto;
+padding: 30px 0px 20px 0;text-align: center;position: relative;
+}
+
+#home, #competition, #whatif, {padding:30px}
+
+header, footer { background-color:rgba(255,255,255,0.3);
+        background: -moz-linear-gradient(top, rgba(119,136,153,1),
+rgba(255,248,220,1));
+        background: -webkit-linear-gradient(top, rgba(119,136,153,1),
+rgba(242,236,188,1) );
+        background: -o-linear-gradient(top, rgba(119,136,153,1),
+rgba(242,236,188,1));
+        background: linear-gradient(top, 
+rgba(119,136,153,1),rgba(242,236,188,1));
+        padding-top:20px;
+}
+
+nav { margin-left: 0px; }
+nav li {display: inline;}
+nav a {
+        display: inline-block; text-decoration: none; font-size: 1.2em; 
+color:
+        #ffffff; padding: 10px 25px; background:  #336699; border-radius: 
+5px;
+        border: 1px solid #666666; -moz-box-shadow:
+                0px 0px 0px rgba(000,000,000,0), inset 0px 1px 0px
+                rgba(255,255,255,0.7);
+        -webkit-box-shadow:
+                0px 0px 0px rgba(000,000,000,0), inset 0px 1px 0px
+                rgba(255,255,255,0.7);
+        -o-box-shadow:
+                0px 0px 0px rgba(000,000,000,0), inset 0px 1px 0px
+                rgba(255,255,255,0.7);
+        box-shadow:
+                0px 0px 0px rgba(000,000,000,0), inset 0px 1px 0px
+                rgba(255,255,255,0.7);
+        text-shadow:
+                0px -1px 1px rgba(000,000,000,0.2), 0px 1px 0px
+                rgba(255,255,255,0.3);
+}
+nav a { webkit-transition: -webkit-transform .5s, background-color 1s 
+ease-in .5s;
+-moz-transition:-moz-transform .5s, background-color 1s ease-in .5s;
+-o-transition:-o-transform .5s, background-color 1s ease-in .5s;
+transition: transform .5s, background-color 1s ease-in .5s }
+nav a:hover {
+        background-color: black ; -webkit-transform: scale(1.2); 
+-moz-transform:
+scale(1.2); -o-transform: scale(1.2); -ms-transform:
+scale(1.2); transform: scale(1.2);}
+#home p {color:black;}
+
+
+#about {			
+		outline: 2px black solid; float: left;
+                width: 48%;
+               background: white;
+		font-weight: 900; 
+                color: black;
+		margin-left:24%;
+        }
+
+#wrapper {background:white;width:960px;margin:0 auto;}
+#account {
+        outline: 2px black solid; float: left;
+                width: 50%;
+               background: white;
+		font-weight: 900; 
+                color: black;
+		height:500px;
+		
+        }
+
+#account2 {
+        outline: 2px black solid; float: left;
+                width: 49%;
+               background: white;
+		font-weight: 900; 
+                color: black;height:620px;
+		
+        }
+#account3 {
+        outline: 2px black solid; float: left;
+                width: 49%;margin-left:2%;
+               background: white;
+		font-weight: 900; 
+                color: black;height:620px;
+		
+        }
+
+
+#portfolio {
+		outline: 2px white solid; 
+                width: 95%;height:150px;overflow:auto;margin:auto;
+               background: white;
+		font-size: small; 
+                color: black;
+		
+	}
+
+#stock {outline: 2px black solid; float: left;
+                width: 48%;
+                margin-left:1%;
+                background: white;
+                opacity: 0.95; font-weight: 900; color: black;
+		height:500px;
+ }
+#buystocks {
+		outline: 2px white solid; 
+                width: 95%;height:100px;overflow:auto;margin:auto;
+               background: white;font-size:small;
+		font-weight: 900; 
+                color: black;
+		
+	}
+#comp {
+		outline: 2px white solid; 
+                width: 90%;height:100px;overflow:auto;margin:auto;
+               background: white;font-size:small;
+		font-weight: 900; 
+                color: black;
+		
+	}
+
+
+#whatif {
+		text-align:center ;
+		outline: 2px black solid; 
+                width: 65;
+               background: white;
+		font-weight: 900; 
+                color: black;
+		margin-left:10%;
+		margin-right:10%;}
+
+
+#transaction {
+		text-align:center ;
+		outline: 2px black solid; 
+                width: 48%;
+               background: white;
+		font-weight: 900; 
+                color: black;
+		margin-left:25%;}
+
+
+#signlog {font-size: 21.5px;}
+#signlog a {color: black;}
+
+
+#logout {font-size: 21.5px;text-align: right;padding-right:30px;}
+#logout a {color: black;}
+
+#search{text-align:center;}
+
+
+#about{font-size: 20px;}
+#Sign-Up, #Sign-In{
+text-align: center;
+
+}
+#button{
+font-family: "Averia Sans Libre", "Arial", serif;
+border-radius:10px;
+width:100px;
+height:40px;
+background:#336699;
+font-weight:bold;
+font-size:17px;
+color:white;
+}
+
+#marqueeborder {
+	color: #cccccc;
+	background-color: #000000;
+	font-family:"Lucida Console", Monaco, monospace;
+	position:relative;
+	height:20px; 
+	overflow:hidden;
+	font-size: 0.7em;
+}
+#marqueecontent {
+	position:absolute;
+	left:0px;
+	line-height:20px;
+	white-space:nowrap;
+}
+
+.stockbox {
+	margin:0 10px;
+}
+.stockbox a {
+	color: #cccccc;
+	text-decoration : underline;
+}
+
